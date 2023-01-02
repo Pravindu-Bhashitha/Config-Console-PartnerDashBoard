@@ -1,6 +1,6 @@
 .SampleUser{
   background-color: rgba(243,243, 243);
-  height: 40px;
+  height: 60px;
   padding-left: 1300px;
   color: grey;
   vertical-align: middle;
@@ -8,12 +8,12 @@
   border-color: grey;
 }
 .UserIcon{
-  margin-top: 7px;
+  margin-top: 20px;
   margin-right: 15px;
   color: grey;
 }
 .PartnerDashbord{
-  height: 40px;
+  height: 60px;
   background-color: white;
   color: grey;
   padding-right: 1200px;
@@ -22,38 +22,46 @@
   border-right-style: solid;
 }
 .PartnerDashbordtxt{
-  vertical-align: middle;
+  color: grey;
+  margin-top: 0px;  
 }
 .SecondBackground{
   padding-right: 1000px;
-  width: 33.15%;
-  height: fit-content;
-  background-color: rgba(243,243, 243);
-  size: 1080px 1080px;
+  width: 33.90%;
+  background-color:rgba(243,243, 243);
   border-style: solid;
   border-color: grey;
   text-align: center;
+  height: 608px;
 }
 .ThirdBackground{
   border-color: gray;
-  border-style: solid;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 35px;
+  margin-bottom: 65px;
   background-color: white;
-  margin-left: 100px;
+  margin-left: 220px;
+  width: 200%;
+  padding-top: 5px;
+  padding-bottom: 0.5px;
+  border-style: solid;
+  border-radius: 4px;
 }
-.FirstRow{
+.Row{
   display: flex;
-  width: 240%;
-  margin-left: 100px;
+  width: 90%;
   margin-top: 5px;
   height: fit-content;
-  margin-bottom: 20px;
+  margin-bottom: 8px;
   background-color: white;
-  padding-right: 25px;
   border-radius: 5px;
+  margin-left: 50px;
+  margin-right: 40px;
+  padding-right: 5px;
 }
-.FirstOne{
+.FirstBox{
+  margin-left: -180px;
+}
+.Box{
   background-color: white;
   margin-right: -195px;
   margin-left: 200px;
@@ -63,13 +71,7 @@
   border: solid;
   border-color: grey;
   padding-bottom: -5px;
-}
-.SecondOne{
-  background-color: white;
-  width: 50%;
-  margin-right: 20px;
-  text-align: left;
-  border-radius: 3px;
+  height: 265px;
 }
 .Upper{
   background-color: rgb(181, 165, 165);
@@ -78,18 +80,21 @@
   padding-top: 1px;
   text-align: left;
   height: 50px;
+  height: 60px;
 }
 .head1{
   color: grey;
+  font-size: 18px;
 }
 .head2{
   color: black;
+  font-size: 18px;
 }
 .Client{
   padding-top: 5px;
   padding-left: 5px;
   color: grey;
-  font-size: 15px;
+  font-size: 16px;
   text-align: center;
   vertical-align: middle;
 }
@@ -106,7 +111,8 @@
 .Notify{
   padding-left: 125px;
   padding-right: 15px;
-  margin-top: -22px;
+  margin-top: -34px;
+  font-size: 16px;
 }
 .notification:hover {
   background: #2b8774;
@@ -123,11 +129,13 @@
 .Middle{
   background-color: white;
   padding-left: 10px;
-  margin-top: 3px;
+  margin-top: -4px;
   margin-bottom: 2px;
+  font-size: 18px;
 }
 .Bottom{
   text-align: center;
+  margin-bottom: 20px;
 }
 .ViewButton{
   background-color: #1ab394;
@@ -136,24 +144,9 @@
   border-color: transparent;
   width: 97%;
   border-radius: 3px;
-  margin-bottom: 7px;
+  font-size: 15px;
+  margin-bottom: 25px;
 }
 .ViewButton:hover{
   background-color:#2b8774;
-}
-.SecondOne{
-  border-color: red;
-  outline-color: grey;
-  width: fit-content;
-  margin-right: 100px;
-  margin-left: 100px;
-}
-
-.SecondRow{
-  display: flex;
-
-}
-.ThirdRow{
-  display: flex;
-  
 }
